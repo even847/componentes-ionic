@@ -29,7 +29,6 @@ export class ToastPage implements OnInit {
       buttons: [
         {
           side: 'start',
-          icon: 'star',
           text: 'Favorite',
           handler: () => {
             console.log('Favorite clicked');
